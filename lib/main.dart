@@ -4,10 +4,10 @@ import 'services/pixabay_service.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 void main() {
-  runApp(PixabayGalleryApp());
+  runApp(MyApp());
 }
 
-class PixabayGalleryApp extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
